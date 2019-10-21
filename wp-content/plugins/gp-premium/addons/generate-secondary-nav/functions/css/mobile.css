@@ -1,0 +1,81 @@
+@media (max-width: 1024px) {
+	.secondary-nav-float-right .secondary-navigation {
+		float: none;
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.secondary-navigation .menu-toggle {
+		text-align: center;
+	}
+	.secondary-navigation ul li:hover > ul {
+		display: none;
+	}
+	.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+		display: none;
+	}
+	
+	button.secondary-menu-toggle {
+		background-color: transparent;
+		width: 100%;
+		border: 0;
+	}
+	
+	button.secondary-menu-toggle:hover,
+	button.secondary-menu-toggle:active,
+	button.secondary-menu-toggle:focus {
+		background-color: transparent;
+		border: 0;
+		outline: 0;
+	}
+	
+	.sub-menu.toggled-on {
+		display: block !important;
+	}
+	.secondary-navigation .main-nav ul li .dropdown-toggle {
+		display: block;
+	}
+	
+	.secondary-navigation li a.dropdown-toggle {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.secondary-navigation ul {
+		display: none;
+	}
+	.secondary-navigation .menu-toggle, .secondary-navigation.toggled ul.secondary-menu {
+		display: block;
+	}
+	.secondary-navigation .menu > li, 
+	.secondary-navigation .sf-menu > li {
+		display: block !important;
+		float: none !important;
+		text-align: left;
+		margin: 0 !important;
+		clear: both;
+	}
+	body.secondary-nav-below-header .secondary-navigation .menu > li, 
+	body.secondary-nav-below-header .secondary-navigation .sf-menu > li, 
+	body.secondary-nav-above-header .secondary-navigation .menu > li, 
+	body.secondary-nav-above-header .secondary-navigation .sf-menu > li {
+		display: block;
+		margin: 0;
+		float: none;
+	}
+	.secondary-navigation ul.secondary-menu ul {
+		left: 0;
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+	.secondary-nav-below-header nav.secondary-navigation, 
+	.secondary-nav-above-header nav.secondary-navigation {
+		text-align:left;
+	}
+	.secondary-nav-float-right .secondary-navigation {
+		float: none;
+	}
+}
